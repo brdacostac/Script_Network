@@ -1,5 +1,11 @@
 #!/bin/sh
 
+#==========================================
+# Title:  Script-Network
+# Author: Bruno DA COSTA CUNHA
+# Date:    20/03/2022
+#==========================================
+
 
 # Varibles that will be used to make the code more visible in the screen
 BLUE="\\e[1;34m"
