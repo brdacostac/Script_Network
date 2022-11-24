@@ -1,5 +1,12 @@
 #!/usr/bin/env ruby
- 
+
+#==========================================
+# Title:  Script-Network
+# Author: Bruno DA COSTA CUNHA
+# Date:    20/03/2022
+#==========================================
+
+
 require "socket"
 s = TCPSocket.open(ARGV[0], ARGV[1].to_i) # Création de la socket et connexion
 while line = STDIN.gets do # pour toutes les lignes de l'entrée standard
