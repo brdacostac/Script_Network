@@ -1,4 +1,10 @@
 #!/usr/bin/env ruby
+
+#==========================================
+# Title:  Script-Network
+# Author: Bruno DA COSTA CUNHA
+# Date:    20/03/2022
+#==========================================
  
 require 'socket'
 server = TCPServer.new ARGV[0] # socket d'écoute attaché au port passé en argument 
