@@ -1,6 +1,12 @@
 #!/bin/sh
 # this script will configure a server for users to be able to use the service Samba
 
+#==========================================
+# Title:  Script-Samba
+# Author: Bruno DA COSTA CUNHA
+# Date:    20/03/2022
+#==========================================
+
 configColors(){
     echo "${BLUE}------configColors $@... ${NC}"
     # -> This function will copy the colors.txt file and put it inside the machine by vdn-scp 
